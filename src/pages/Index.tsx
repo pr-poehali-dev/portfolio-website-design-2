@@ -76,15 +76,15 @@ const Index = () => {
         </div>
       </nav>
 
-      <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-6">
+      <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-6 bg-gradient-to-br from-background via-purple-50 to-red-50">
         <div className="container mx-auto max-w-4xl text-center animate-fade-in">
-          <h2 className="text-6xl md:text-7xl font-bold tracking-tight mb-6">
+          <h2 className="text-6xl md:text-7xl font-bold tracking-tight mb-6 bg-gradient-to-r from-purple-600 to-red-500 bg-clip-text text-transparent">
             Дизайнер
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
             Создаю минималистичные и функциональные решения для цифровых продуктов
           </p>
-          <Button size="lg" onClick={() => scrollToSection('portfolio')} className="group">
+          <Button size="lg" onClick={() => scrollToSection('portfolio')} className="group bg-gradient-to-r from-purple-600 to-red-500 hover:from-purple-700 hover:to-red-600">
             Смотреть работы
             <Icon name="ArrowRight" size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
@@ -126,7 +126,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="portfolio" className="min-h-screen flex items-center justify-center px-6 py-20 bg-secondary/30">
+      <section id="portfolio" className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-transparent to-purple-50/30">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h3 className="text-4xl font-bold mb-4">Портфолио</h3>
@@ -254,7 +254,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="border-t border-border bg-secondary/30">
+      <footer className="border-t border-border bg-gradient-to-r from-secondary via-purple-900/10 to-red-900/10">
         <div className="container mx-auto px-6 py-12">
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
