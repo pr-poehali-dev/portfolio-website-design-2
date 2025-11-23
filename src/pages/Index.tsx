@@ -216,6 +216,40 @@ const Index = () => {
                 <Icon name="Send" size={18} className="ml-2" />
               </Button>
             </form>
+            <div className="mt-8 pt-6 border-t border-border">
+              <p className="text-center text-sm text-muted-foreground mb-4">
+                Или напишите мне в мессенджерах
+              </p>
+              <div className="flex justify-center gap-4">
+                <a 
+                  href="https://t.me/yourusername" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
+                  aria-label="Telegram"
+                >
+                  <Icon name="Send" size={20} />
+                </a>
+                <a 
+                  href="https://vk.com/yourusername" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
+                  aria-label="VK"
+                >
+                  <Icon name="Share2" size={20} />
+                </a>
+                <a 
+                  href="https://pinterest.com/yourusername" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
+                  aria-label="Pinterest"
+                >
+                  <Icon name="Image" size={20} />
+                </a>
+              </div>
+            </div>
           </Card>
         </div>
       </section>
