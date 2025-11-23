@@ -31,15 +31,15 @@ const Index = () => {
   const portfolioItems = [
     {
       id: 1,
-      title: 'Современный веб-дизайн',
-      image: 'https://cdn.poehali.dev/projects/78bc9acd-e85e-4cfa-ad44-11efc9bd8c38/files/e6049190-738a-4196-9bbe-f150133352dd.jpg',
-      category: 'UI/UX'
+      title: 'Брошюры и реклама',
+      image: 'https://cdn.poehali.dev/files/2835e672-e7b4-459a-9a96-3b1ec0fc9e4f.png',
+      category: 'Print Design'
     },
     {
       id: 2,
-      title: 'Брендинг и айдентика',
-      image: 'https://cdn.poehali.dev/projects/78bc9acd-e85e-4cfa-ad44-11efc9bd8c38/files/ab3f1ce0-821a-4ff1-aba3-1a6c1a820198.jpg',
-      category: 'Branding'
+      title: 'Обложки',
+      image: 'https://cdn.poehali.dev/files/2c483164-0e6e-4de0-85da-9c166248a7d3.png',
+      category: 'Cover Design'
     },
     {
       id: 3,
