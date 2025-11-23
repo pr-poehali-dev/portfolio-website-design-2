@@ -43,9 +43,9 @@ const Index = () => {
     },
     {
       id: 3,
-      title: 'Минималистичная графика',
-      image: 'https://cdn.poehali.dev/projects/78bc9acd-e85e-4cfa-ad44-11efc9bd8c38/files/707bbc45-abe0-4cdb-9e17-4ced96ca714b.jpg',
-      category: 'Graphic Design'
+      title: 'Логотипы',
+      image: 'https://cdn.poehali.dev/files/7b755ca7-a5b9-4961-be42-954442fb8a43.png',
+      category: 'Logo Design'
     }
   ];
 
