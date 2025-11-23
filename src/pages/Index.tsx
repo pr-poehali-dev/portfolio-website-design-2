@@ -222,7 +222,7 @@ const Index = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <a 
-                  href="https://t.me/yourusername" 
+                  href="https://t.me/M1awka" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
@@ -231,16 +231,16 @@ const Index = () => {
                   <Icon name="Send" size={20} />
                 </a>
                 <a 
-                  href="https://vk.com/yourusername" 
+                  href="https://vk.com/petrycha_nem" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
+                  className="flex items-center justify-center w-12 h-12 rounded-full overflow-hidden hover:opacity-80 transition-opacity"
                   aria-label="VK"
                 >
-                  <Icon name="Share2" size={20} />
+                  <img src="https://cdn.poehali.dev/files/22ef181f-666c-4f4b-899c-9e496998153a.png" alt="VK" className="w-full h-full object-cover" />
                 </a>
                 <a 
-                  href="https://pinterest.com/yourusername" 
+                  href="https://ru.pinterest.com/vaildeva80/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-full bg-secondary hover:bg-accent transition-colors"
