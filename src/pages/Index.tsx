@@ -60,7 +60,7 @@ const Index = () => {
                 Главная
               </button>
               <button onClick={() => scrollToSection('about')} className="text-sm font-medium hover:text-accent transition-colors">
-                О нас
+                Обо мне
               </button>
               <button onClick={() => scrollToSection('portfolio')} className="text-sm font-medium hover:text-accent transition-colors">
                 Портфолио
@@ -95,7 +95,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h3 className="text-4xl font-bold mb-6">О нас</h3>
+              <h3 className="text-4xl font-bold mb-6">Обо мне</h3>
               <p className="text-lg text-muted-foreground mb-4">
                 Я начинающий дизайнер с фокусом на создании чистых и интуитивных интерфейсов. 
                 Верю в силу минимализма и функциональности.
@@ -115,10 +115,12 @@ const Index = () => {
                 </Card>
               </div>
             </div>
-            <div className="relative h-[400px] bg-secondary rounded-lg overflow-hidden animate-fade-in">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Icon name="Palette" size={120} className="text-muted-foreground/20" />
-              </div>
+            <div className="relative h-[400px] rounded-lg overflow-hidden animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/e27be6bc-dc64-4a2d-9345-21df34e3aa6e.jpeg" 
+                alt="Портфолио"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
