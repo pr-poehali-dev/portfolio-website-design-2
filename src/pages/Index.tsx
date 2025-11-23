@@ -232,13 +232,13 @@ const Index = () => {
             <div className="md:text-right">
               <h4 className="text-lg font-semibold mb-4">Контакты</h4>
               <div className="space-y-2">
-                <a href="tel:+79991234567" className="flex items-center justify-end gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="tel:+79607691808" className="flex items-center justify-end gap-2 text-muted-foreground hover:text-foreground transition-colors">
                   <Icon name="Phone" size={16} />
-                  <span>+7 (999) 123-45-67</span>
+                  <span>+7 960 769 18 08</span>
                 </a>
-                <a href="mailto:designer@example.com" className="flex items-center justify-end gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="mailto:laletina.vektorea.05@mail.ru" className="flex items-center justify-end gap-2 text-muted-foreground hover:text-foreground transition-colors">
                   <Icon name="Mail" size={16} />
-                  <span>designer@example.com</span>
+                  <span>laletina.vektorea.05@mail.ru</span>
                 </a>
               </div>
             </div>
